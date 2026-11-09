@@ -7,6 +7,8 @@ public class Tamagotchi
     private int _hunger;
     private int _energy;
     private int _hygiene;
+    
+    private TamagotchiArt _tamagotchiArt;
 
     public Tamagotchi(int health, int happiness, int hunger, int energy, int hygiene)
     {
@@ -16,4 +18,6 @@ public class Tamagotchi
         _energy = energy;
         _hygiene = hygiene;
     }
+    
+    
 }

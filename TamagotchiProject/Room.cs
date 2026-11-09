@@ -1,6 +1,6 @@
 ﻿namespace TamagotchiProject;
 
-public abstract class Room
+public interface IRoom
 {
     
 }
