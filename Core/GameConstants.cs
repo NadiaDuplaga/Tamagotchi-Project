@@ -7,4 +7,5 @@ public static class GameConstants
     public const int InitialEnergy = 50;
     public const int InitialHunger = 80;
     public const int InitialHygiene = 20;
+    public const int InitialMoney = 0;
 }

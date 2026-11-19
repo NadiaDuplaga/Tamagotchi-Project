@@ -1,0 +1,83 @@
+## Distribution
+dist/
+
+## .NET
+bin/
+obj/
+out/
+publish/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+.env
+
+## NuGet
+**/packages/
+*.nupkg
+**/[Pp]ackages/
+project.lock.json
+
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+bld/
+[Bb]in/
+[Oo]bj/
+
+## IDE
+.vs/
+.vscode/
+.idea/
+*.swp
+*~
+*.code-workspace
+
+## Rider
+*.sln.iml
+
+## User-specific
+*.rsuser
+*.suo
+*.user
+*.userprefs
+
+## OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+## Secrets — NEVER commit these
+appsettings.*.local.json
+*.pfx
+*.key
+
+## EF Core Migrations — keep these, but ignore migration snapshots in development
+# Uncomment below if you want to ignore migrations:
+# **/Migrations/
+
+## Docker
+docker-compose.override.yml
+
+## Test results
+TestResults/
+coverage/
+*.trx
+
+## Claude Code local files
+**/CLAUDE.md
+**/CLAUDE.local.md
+**/CLAUDE.TODO.txt
+**/.claude/
+.mcp.json
+**/.mcp.json
+.worktreeinclude
+**/.worktreeinclude
+**/claude.local.*
+**/.claude-*
+**/claude-*.local.*
+/.env
